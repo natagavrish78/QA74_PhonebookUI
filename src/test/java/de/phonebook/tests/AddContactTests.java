@@ -20,7 +20,6 @@ public class AddContactTests extends TestBase{
     public void addContactPositiveTest() {
         clickOnAddLink();
         fillAddContactForm(new Contact()
-                
                 .setName("Oliver")
                 .setLastname("Kan")
                 .setPhone("1234567890")
