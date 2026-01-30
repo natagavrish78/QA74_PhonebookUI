@@ -1,6 +1,7 @@
 package de.phonebook.tests;
 
 import de.phonebook.core.TestBase;
+import de.phonebook.data.UserData;
 import de.phonebook.model.Contact;
 import de.phonebook.model.User;
 import org.testng.Assert;
@@ -27,8 +28,8 @@ public class AddContactTests extends TestBase {
 
         app.getUser().clickOnLoginLink();
         app.getUser().fillLoginRegisterForm(new User()
-                .setEmail("manuel@gm.com")
-                .setPassword("Manuel1234$"));
+                .setEmail(UserData.EMAIL)
+                .setPassword(UserData.PASSWORD));
         app.getUser().clickOnLoginButton();
     }
 
