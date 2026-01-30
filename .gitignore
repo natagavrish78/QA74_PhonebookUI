@@ -12,8 +12,6 @@ gradlew.bat
 \gradlew
 gradlew
 
-### Mac OS ###
-.DS_Store
 
 *.log
 *.png
